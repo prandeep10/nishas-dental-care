@@ -1,0 +1,81 @@
+.hero-section {
+    height: 88vh;
+    background: url('hero-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 40px;
+
+}
+
+.hero-section h1 {
+    font-size: 8rem;
+    color: white;
+    text-shadow: 2px 2px 1px white;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons .button-41,
+.buttons .button-42 {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.buttons .button-42 {
+    background-color: initial;
+    text-decoration: none;
+    background-image: linear-gradient(-180deg, #c9c9c9, #ffffff);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #575757;
+    cursor: pointer;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    z-index: 9;
+    border: 0;
+}
+
+.button-42:hover {
+    background-image: linear-gradient(-180deg, #c9c9c9, rgb(152, 152, 152));
+}
+
+@media(max-width:900px){
+    
+.hero-section h1 {
+    font-size: 2.4rem;
+    text-shadow: none;
+}
+
+.buttons .button-41,
+.buttons .button-42 {
+    width: 140px;
+    height: 40px;
+}
+
+.buttons{
+    padding-top: 10px;
+}
+}
